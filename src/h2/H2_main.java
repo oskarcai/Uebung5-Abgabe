@@ -19,7 +19,6 @@ public class H2_main {
         // int n in Array-Zellen speichern:
         for(int i = 0; i < a.length; i++) {
             a[a.length - 1 - i] = n % 10;
-            n -= n % 10;
             n /= 10;
         }
 
