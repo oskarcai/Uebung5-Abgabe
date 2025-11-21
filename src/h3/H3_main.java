@@ -10,12 +10,12 @@ public class H3_main {
         // int input in Array-Zellen aufsplitten:
         for(int i = 0; i < einheiten[0].length; i++) {
             einheiten[1][i] = input / einheiten[0][i];
-                input = input % (einheiten[0][i]);
+                input = input % einheiten[0][i];
         }
 
         // Array-Ausgabe:
         for(int i = 0; i < einheiten[0].length; i++) {
-            System.out.print(einheiten[1][i]  + " ");
+            System.out.println(einheiten[0][i]  + " " + einheiten[1][i]);
         }
     }
 }
