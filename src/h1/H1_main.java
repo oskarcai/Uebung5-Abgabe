@@ -1,5 +1,7 @@
 package h1;
 
+import java.util.Arrays;
+
 public class H1_main {
     public static void main(String[] args) {
         int[] myArray = {5,6,7,10};
@@ -12,8 +14,6 @@ public class H1_main {
         }
 
         // Ausgabe vom Array - reversed:
-        for(int i = 0; i < myArray.length; i++) {
-            System.out.print(myArray[i] + " ");
-        }
+        System.out.println( Arrays.toString(myArray) );
     }
 }
